@@ -1,0 +1,76 @@
+
+.name {
+    font-size: 2.25rem;
+    line-height: 1.125;
+    margin-bottom: 0.5rem;
+}
+
+.job {
+    color: #ffe479;
+    font-size: 0.75rem;
+}
+
+.hr {
+    background-color: #ff470f;
+    border: none;
+    content: "";
+    height: 1px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    transform-origin: center left;
+    width: 4rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.job,
+.button {
+    font-family: "Montserrat", "Quicksand", sans-serif;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+/* Hero background image */
+.hero {
+    background-image: url(../images/clay-kaufmann-wn5XW0Au6s0-unsplash.jpg);
+}
+
+.label {
+    color: #363636;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.title {
+    color: hsl(204, 86%, 53%)
+}
+  
+.subtitle {
+    color: orange;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 767px) {
+    .reverse-column-order {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .side {
+        flex-grow: 0;
+        flex-shrink: 0;
+        height: 25rem;
+        width: 25rem;
+    }
+}
+  
+/* Footer */
+.footer  {
+    padding: .3rem 1rem;
+    background-color: orange;
+}
